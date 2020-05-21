@@ -1,0 +1,18 @@
+.media {
+    width: 480px;
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+.user {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main {
+    text-align: center;
+}
+
+a {
+    color: blue
+}

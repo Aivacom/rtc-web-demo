@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./static/main.css">
     <link rel="stylesheet" href="./static/bootstrap.min.css">
     <title>thunderbolt-web-demo</title>
 </head>
@@ -14,7 +15,8 @@
         <p class="navbar-brand">thunderbolt-web-sdk demos</p>
         <ul class="nav navbar-nav">
             <li><a href="https://github.com/Aivacom/rtc-web-demo">source code</a></li>
-            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_audio_interaction/api/Web/v2.4.0/category.html">API</a></li>
+            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_audio_interaction/api/Web/v2.4.0/category.html">API</a>
+            </li>
         </ul>
     </nav>
     <div class="container">
@@ -22,13 +24,10 @@
             <div class="col-md-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">basic video call</div>
-                    <div class="panel-body">
+                    <div class="panel-body fixed-panel">
                         A demo of basic video call.
-                        <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <a class="btn btn-default" href="./basicVideoCall/index.html" role="button">go</a>
-                            </div>
+                        <div class="panel-button">
+                            <a class="btn btn-default " href="./basicVideoCall/index.html" role="button">go</a>
                         </div>
                     </div>
                 </div>
@@ -36,13 +35,21 @@
             <div class="col-md-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">screen share</div>
-                    <div class="panel-body">
+                    <div class="panel-body fixed-panel">
                         Share your screen with others
-                        <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <a class="btn btn-default" href="./screenShare/index.html" role="button">go</a>
-                            </div>
+                        <div class="panel-button">
+                            <a class="btn btn-default " href="./screenShare/index.html" role="button">go</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">dual stream</div>
+                    <div class="panel-body fixed-panel">
+                        The host publishes two resolutions of video. Audience can subscribe one of them.
+                        <div class="panel-button">
+                            <a class="btn btn-default " href="./dualStream/index.html" role="button">go</a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,10 @@
+.fixed-panel {
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.panel-button {
+    position: absolute;
+    right: 30px;
+    bottom: 30px; /* half of the button height */
+}

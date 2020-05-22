@@ -1,12 +1,11 @@
 .media {
     width: 480px;
     height: 360px;
-    margin-bottom: 20px;
 }
 
 .user {
     width: 500px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .main {

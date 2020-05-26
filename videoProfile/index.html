@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-    <title>screen share</title>
+    <title>video profile</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,10 @@
 
 <body>
     <nav class="navbar navbar-default">
-        <p class="navbar-brand">screen share</p>
+        <p class="navbar-brand">video profile</p>
         <ul class="nav navbar-nav">
-            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/advanced_functions/video_function/share_the_screen/screensharing_web.html">guide</a></li>
-            <li><a href="https://github.com/Aivacom/rtc-web-demo/tree/master/screenShare">source code</a></li>
+            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/advanced_functions/video_function/video_profile/web.html">guide</a></li>
+            <li><a href="https://github.com/Aivacom/rtc-web-demo/tree/master/videoProfile">source code</a></li>
             <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_audio_interaction/api/Web/v2.4.0/category.html">API</a></li>
             <li><a href="../index.html">other demos</a></li>
         </ul>
@@ -39,6 +39,10 @@
             <div class="form-group">
                 <label for="token">token</label>
                 <input type="text" class="form-control" id="token" placeholder="token(optional)">
+            </div>
+            <div class="form-group">
+                <label for="video-mode">video mode</label>
+                <select class="form-control" id="video-mode"></select>
             </div>
             <button type="submit" id="join" class="btn btn-primary">join</button>
             <button type="button" id="leave" class="btn btn-default" disabled>leave</button>

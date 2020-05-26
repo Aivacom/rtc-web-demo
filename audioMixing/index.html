@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-    <title>screen share</title>
+    <title>audio mixing</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,10 @@
 
 <body>
     <nav class="navbar navbar-default">
-        <p class="navbar-brand">screen share</p>
+        <p class="navbar-brand">audio mixing</p>
         <ul class="nav navbar-nav">
-            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/advanced_functions/video_function/share_the_screen/screensharing_web.html">guide</a></li>
-            <li><a href="https://github.com/Aivacom/rtc-web-demo/tree/master/screenShare">source code</a></li>
+            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/advanced_functions/audio_function/audio_effect_mixing/audio_effect_mixing_web.html">guide</a></li>
+            <li><a href="https://github.com/Aivacom/rtc-web-demo/tree/master/audioMixing">source code</a></li>
             <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_audio_interaction/api/Web/v2.4.0/category.html">API</a></li>
             <li><a href="../index.html">other demos</a></li>
         </ul>
@@ -45,6 +45,21 @@
         </form>
         <div>
             <a id="invite" target="_blank">invite others</a>
+        </div>
+        <div style="width: 600px; margin: 10px auto">
+            <h3>audio mixing</h3>
+            <button type="button" id="startAudioMixing" class="btn btn-default" disabled>startAudioMixing</button>
+            <button type="button" id="stopAudioMixing" class="btn btn-default" disabled>stopAudioMixing</button>
+
+            <div style="margin-top: 10px" id="mixing-progress">
+                <div class="progress" style="float: left; width: 500px">
+                    <div class="progress-bar" role="progressbar" id="mixing-progress-bar"
+                         aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+                <div style="float: left;margin-left: 10px" id="mixing-text"></div>
+            </div>
+            
         </div>
     </div>
     <div id="users"></div>

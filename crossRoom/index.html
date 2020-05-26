@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-    <title>screen share</title>
+    <title>cross room</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,10 @@
 
 <body>
     <nav class="navbar navbar-default">
-        <p class="navbar-brand">screen share</p>
+        <p class="navbar-brand">cross room</p>
         <ul class="nav navbar-nav">
-            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/advanced_functions/video_function/share_the_screen/screensharing_web.html">guide</a></li>
-            <li><a href="https://github.com/Aivacom/rtc-web-demo/tree/master/screenShare">source code</a></li>
+            <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_video_interaction/common_functions/cross_room_interaction/Web.html">guide</a></li>
+            <li><a href="https://github.com/Aivacom/rtc-web-demo/tree/master/crossRoom">source code</a></li>
             <li><a href="https://docs.aivacom.com/cloud/cn/product_category/rtc_service/rt_audio_interaction/api/Web/v2.4.0/category.html">API</a></li>
             <li><a href="../index.html">other demos</a></li>
         </ul>
@@ -42,6 +42,19 @@
             </div>
             <button type="submit" id="join" class="btn btn-primary">join</button>
             <button type="button" id="leave" class="btn btn-default" disabled>leave</button>
+        </form>
+        <h3>cross room subscribe </h3>
+        <form id="cross-form" class="form-inline">
+            <div class="form-group">
+                <label for="cross-roomId">room</label>
+                <input type="text" class="form-control" id="cross-roomId" placeholder="cross-roomId" required>
+            </div>
+            <div class="form-group">
+                <label for="cross-uid">uid</label>
+                <input type="text" class="form-control" id="cross-uid" placeholder="cross-uid" required>
+            </div>
+            <button type="button" id="addSubscribe" class="btn btn-default shadow-none" disabled>addSubscribe</button>
+            <button type="button" id="removeSubscribe" class="btn btn-default shadow-none" disabled>removeSubscribe</button>
         </form>
         <div>
             <a id="invite" target="_blank">invite others</a>

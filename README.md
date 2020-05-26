@@ -13,3 +13,10 @@
 | basic video call | 实现基础音视频通信 | [在线体验](https://aivacom.github.io/rtc-web-demo/basicVideoCall/index.html) | [代码](./basicVideoCall) |
 | screen share | 屏幕分享 | [在线体验](https://aivacom.github.io/rtc-web-demo/screenShare/index.html) | [代码](./screenShare) |
 | dual stream | 主播发布大小流（两种分辨率的视频），观众可以订阅其中一个 | [在线体验](https://aivacom.github.io/rtc-web-demo/dualStream/index.html) | [代码](./dualStream) |
+| audio mixing | 混音 | [在线体验](https://aivacom.github.io/rtc-web-demo/audioMixing/index.html) | [代码](./audioMixing) |
+| call stat | 通话数据统计 | [在线体验](https://aivacom.github.io/rtc-web-demo/callStat/index.html) | [代码](./callStat) |
+| connection state | 连接状态统计 | [在线体验](https://aivacom.github.io/rtc-web-demo/connectionState/index.html) | [代码](./connectionState) |
+| cross room | 夸频道连麦 | [在线体验](https://aivacom.github.io/rtc-web-demo/crossRoom/index.html) | [代码](./crossRoom) |
+| switch device | 选择及切换设备 | [在线体验](https://aivacom.github.io/rtc-web-demo/switchDevice/index.html) | [代码](./switchDevice) |
+| choose video profile | 选择及切换 video mode | [在线体验](https://aivacom.github.io/rtc-web-demo/videoProfile/index.html) | [代码](./videoProfile) |
+| volume control | 音量控制 | [在线体验](https://aivacom.github.io/rtc-web-demo/volumeControl/index.html) | [代码](./volumeControl) |

@@ -20,3 +20,4 @@
 | switch device | 选择及切换设备 | [在线体验](https://aivacom.github.io/rtc-web-demo/switchDevice/index.html) | [代码](./switchDevice) |
 | choose video profile | 选择及切换 video mode | [在线体验](https://aivacom.github.io/rtc-web-demo/videoProfile/index.html) | [代码](./videoProfile) |
 | volume control | 音量控制 | [在线体验](https://aivacom.github.io/rtc-web-demo/volumeControl/index.html) | [代码](./volumeControl) |
+| audience | 观众 | [在线体验](https://aivacom.github.io/rtc-web-demo/audience/index.html) | [代码](./audience) |

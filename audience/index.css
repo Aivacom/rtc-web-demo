@@ -1,0 +1,17 @@
+.media {
+    width: 960px;
+    height: 500px;
+}
+
+.user {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.main {
+    text-align: center;
+}
+
+a {
+    color: blue
+}

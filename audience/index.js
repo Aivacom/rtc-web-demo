@@ -12,19 +12,7 @@ let $join = $("#join");
 let $users = $("#users");
 let $message = $("#message");
 let $form = $("form");
-
-const url = new URL(window.location);
-let uAppid = url.searchParams.get('appid');
-let uRoomId = url.searchParams.get('roomId');
-let uToken = url.searchParams.get('token');
-$appid.val(uAppid);
-$roomId.val(uRoomId);
-$token.val(uToken);
 $uid.val(getRandomUid());
-
-if (uAppid && uRoomId) {
-    join();
-}
 
 $form.submit(async function (e) {
     e.preventDefault();
